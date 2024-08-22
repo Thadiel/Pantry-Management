@@ -53,6 +53,7 @@ export default function Home() {
       else{
         updateInventory()
       }
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user, loading, router]);
 
     useEffect(() => {
@@ -63,7 +64,7 @@ export default function Home() {
         }
       });
       setResults(invList)
-    },[search]);
+    },[search,inventory]);
 
     if (loading) {
       return <Box sx={{ display: 'flex', justifyContent:'center'}}>

@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
       <Container>
         <Stack sx={{justifyContent:"center",alignItems:'center'}} paddingX={5} paddingY={3} direction={'row'}>
-          <Typography variant='h4' sx={{width:300,textAlign:'center'}}>Thadiel's Pantry Management App</Typography>
+          <Typography variant='h4' sx={{width:300,textAlign:'center'}}>Thadiel&apos;s Pantry Management App</Typography>
         </Stack>
         {children}
       </Container>
